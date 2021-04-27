@@ -7,8 +7,8 @@ import Header from "./components/Header"
 function App() {
   return (
     <Router>
+      <Header/>
       <Route exact path ='/'>
-        <Header/>
         <Home/>
       </Route>
       <Route exact path ='/yo'>
