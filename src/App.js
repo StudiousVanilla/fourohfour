@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Header/>
-      <Route exact path ='/'>
+      <Route exact path ='/fourohfour'>
         <Home/>
       </Route>
       <Route exact path ='/yo'>
